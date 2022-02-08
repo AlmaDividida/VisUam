@@ -1,0 +1,59 @@
+#equipo-trabajo {
+    background-color: #F5F5F5/*#D3D3D3*//*#DCDCDC*/;
+}
+
+#container-equipo {
+    margin-top: 7%;
+}
+
+#info-equipo {
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#linea {
+    align-items: center;
+    margin-left: 40%;
+}
+
+#miHR {
+    /**display: inline-block;*/
+    color: #0033cc;
+    height: 3px;
+    width: 35%;
+    text-align: center;
+}
+
+.img-integrante {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    align-items: center;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-redes {
+    margin: 5px;
+    border-radius: 15px;
+    align-items: center;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.redonda {
+    width:150px;
+    height:150px;
+    border-radius:100%;
+    border:3px solid #d3d3d3;
+}
+
+a{
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: auto;
+    border-color: rgba(0,0,0,0);
+}
