@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+/*      Color variables     */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+:root {
+    --roboto-font: 'Roboto', sans-serif;
+    --dark-color: #2B2D42;
+    --gray-color: #505168;
+    --light-color: #F3F3F7;
+    --blue-color: #0076BF;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--roboto-font);
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2b2b2b;
+}
+
+/* GLOBAL */
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2.9rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+/* UTILITIES */
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: auto;
+}
+
+.section {
+    padding-top: 2rem;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.w-100{
+    font-weight: 100;
+}
+
+.w-300{
+    font-weight: 300;
+}
+
+.w-400{
+    font-weight: 400;
+}
+
+.w-700{
+    font-weight: 700;
+}
