@@ -1,0 +1,43 @@
+#banner {
+    background-color: #232327;
+}
+
+#container-banner {
+    margin-top: 7%;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.boton {
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:#c4adad;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:150px;
+    padding-right:150px;
+    background-color:#195e10;
+    align-items: center;
+    margin-left: 32%;
+}
+
+#linea {
+    align-items: center;
+    margin-left: 25%;
+}
+
+#miHR {
+    /**display: inline-block;*/
+    color: #195e10;
+    height: 3px;
+    width: 65%;
+    text-align: center;
+}
+
