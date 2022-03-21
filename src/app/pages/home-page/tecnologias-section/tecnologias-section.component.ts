@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TecnologiasSectionComponent implements OnInit {
 
-  constructor() { }
+  TECNOLOGIAS = 3;
+  rutasImgTec: any[] = [];
 
   ngOnInit(): void {
+    this.rutaImg();
+  }
+
+  rutaImg():void{
+    for (let i = 0; i < this.TECNOLOGIAS; i++) {
+      var ruta = "/assets/imgs/tecnologia" + (i+1) + ".png";
+      this.rutasImgTec.push(ruta); 
+    }
   }
 
 }
